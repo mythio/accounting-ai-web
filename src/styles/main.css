@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(135deg, #eef2f7 0%, #e3e9f3 100%);
+  color: #1f2329;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  height: 100%;
+}
+
+button {
+  font-family: inherit;
+}

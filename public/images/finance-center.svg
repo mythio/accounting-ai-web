@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="finance-center-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8e6"/>
+      <stop offset="1" stop-color="#ffe9b8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="128" height="128" rx="28" fill="url(#finance-center-bg)"/>
+
+  <!-- 金币 -->
+  <circle cx="64" cy="64" r="34" fill="#ffd166"/>
+  <circle cx="64" cy="64" r="30" fill="none" stroke="#f4b740" stroke-width="2.5"/>
+
+  <!-- 高光 -->
+  <path d="M40 48 Q46 40 56 38 Q48 44 46 52 Z" fill="#ffeaa0" opacity="0.9"/>
+
+  <!-- 眼睛 -->
+  <circle cx="53" cy="60" r="4.5" fill="#4a3728"/>
+  <circle cx="75" cy="60" r="4.5" fill="#4a3728"/>
+  <circle cx="54.8" cy="58.2" r="1.6" fill="#ffffff"/>
+  <circle cx="76.8" cy="58.2" r="1.6" fill="#ffffff"/>
+
+  <!-- 腮红 -->
+  <ellipse cx="43" cy="70" rx="4" ry="2.6" fill="#ffb3c7"/>
+  <ellipse cx="85" cy="70" rx="4" ry="2.6" fill="#ffb3c7"/>
+
+  <!-- 微笑 -->
+  <path d="M58 75 Q64 81 70 75" stroke="#4a3728" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 星星装饰 -->
+  <path d="M99 34 Q101.5 40 107 41.5 Q101.5 43 99 49 Q96.5 43 91 41.5 Q96.5 40 99 34 Z" fill="#f6a82c"/>
+  <path d="M29 94 Q31 99 35.5 100.5 Q31 102 29 107 Q27 102 22.5 100.5 Q27 99 29 94 Z" fill="#f6a82c" opacity="0.85"/>
+  <circle cx="102" cy="82" r="3" fill="#ffffff" opacity="0.9"/>
+</svg>
